@@ -1,0 +1,160 @@
+
+#canvas {
+    max-width: 100%;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wheelContainer {
+    position: relative;
+    width: 450px;
+    max-width: 100%;
+    right: 45%;
+    left: 55%;
+}
+
+.wheelPointer {
+    width: 450px;
+    max-width: 100%;
+    text-align: center;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.pointerElement {
+    display: inline-block;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 32px solid #000000;
+    
+}
+
+.wheelStatus {
+    padding: 15px 20px;
+    background: #eee;
+    border: 2px dashed #ccc;
+    border-radius: 6px;
+    margin: 20px 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #3f3f3f;
+    text-align: center;
+    
+}
+
+.bgWheelStatus2 {
+    background: #d1d4c8;
+    border: 2px dashed #bfc18e;
+    
+}
+
+#clickWheel {
+    position: absolute;
+    background: #333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    border: 3px dashed #fff;
+    opacity: 0.8;
+    border-radius: 6px;
+    padding: 6px 12px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1em;
+    top: 53%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    display: inline-block;
+}
+
+.form-control, .form-select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 500px)  {
+    #clickWheel {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 400px)  {
+    #clickWheel {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 300px)  {
+    #clickWheel {
+        font-size: 0.6em;
+        border: none;
+        padding: 3px;
+    }
+}
+
+textarea {
+    height: 200px;
+    font-size: 16px!important;
+}
+.Bronz{
+    color: rgb(182, 103, 0);
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: #000000 1px 1px;
+}
+
+.Silver{
+    color: silver;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: #000000 1px 1px;
+}
+.Gold{
+    color: gold;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: #000000 1px 1px;
+}
+.Platine{
+    color: rgb(2, 241, 142);
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: #000000 1px 1px;
+}
+.reward {
+    text-decoration: none;
+    background-color: #00000021;
+    border-radius: 30px;
+}
+.kopiowanie_losy {
+    border-radius: 10px;
+    background-color: #00000013;
+    margin-bottom: 10px;
+    border: #000000;
+}
+.kopiowanie_losy:hover {
+    background-color: #9505ce6b;
+}
+.yep {
+    background-color: #00000060;
+    border-radius: 30px;
+    padding: 4px 30%;
+}
+.ukryte {
+    overflow: hidden;
+}
+body {
+    background: #CFD5DE url(images/tlo.jpg) no-repeat center center fixed ;
+    background-size: auto 100%;
+    
+}
+.logo {
+    height: auto;
+    width: auto;
+}
+

@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Winiarnia - Konkurs</title>
+    <meta name="description" content="Wprowadź własne możliwości lub nagrody i zakręć wirtualnym kołem fortuny, aby wybrać losową z nich."/>
+    <link rel="canonical" href="https://skalkuluj.pl/kolo-fortuny-online">
+    
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:title" content="Koło Fortuny Online - Skalkuluj.pl">
+    <meta property="og:description" content="Wprowadź własne możliwości lub nagrody i zakręć wirtualnym kołem fortuny, aby wybrać losową z nich.">
+    
+    <meta name="twitter:title" content="Koło Fortuny Online - Skalkuluj.pl">
+    <meta name="twitter:description" content="Wprowadź własne możliwości lub nagrody i zakręć wirtualnym kołem fortuny, aby wybrać losową z nich.">
+    <meta name="twitter:image" content="https://skalkuluj.pl/assets/images/og-image.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://skalkuluj.pl/assets/extra/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://skalkuluj.pl/assets/extra/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://skalkuluj.pl/assets/extra/favicon-16x16.png">
+    <link rel="manifest" href="https://skalkuluj.pl/assets/extra/site.webmanifest">
+    <link rel="mask-icon" href="https://skalkuluj.pl/assets/extra/safari-pinned-tab.svg" color="#0369f6">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#0369f6">
+    <meta name="msapplication-config" content="https://skalkuluj.pl/assets/extra/browserconfig.xml">
+    <meta name="theme-color" content="#0369f6">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://skalkuluj.pl/assets/css/style.min.css"/>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6962210495069285" crossorigin="anonymous"></script>
+  </head>
+  <body onload="pokazCzas()">
+  
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+
+  </div>
+</nav>
+<center>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mainSide">
+     
+            <div class="mb-2"><img src="images/logowiniarnia.png" class="logo">
+              <br><h1>Winiarnia Koło Fortuny</h1></div>
+        <script src="https://skalkuluj.pl/assets/js/functions2.min.js"></script>
+    
+    <style>
+    
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.5/umd/popper.min.js" integrity="sha512-8cU710tp3iH9RniUh6fq5zJsGnjLzOWLWdZqBMLtqaoZUA6AWIE34lwMB3ipUNiTBP5jEZKY95SfbNnQ8cCKvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy-bundle.umd.min.js" integrity="sha512-gbruucq/Opx9jlHfqqZeAg2LNK3Y4BbpXHKDhRC88/tARL/izPOE4Zt2w6X9Sn1UeWaGbL38zW7nkL2jdn5JIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<p class="text-muted">Informacje:<br>Osoba kupująca bilety przypisuje je tylko i wyłącznie na siebie. <br>
+  Wykupiony bilet nie podlega zwrotowi, wymianie przed i po zakręceniu.<br>
+  Zakazuje się handlowania biletami.<br>
+  Zarząd nie odpowiada, za podanie błędnych danych/informacji.<br>
+  AKTUALNY CZAS<br>
+  <a id="czas1"></a>
+  </p>
+  <a id="czas"></a>
+<div class="mt-2 mb-2">
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><script src="https://skalkuluj.pl/assets/js/winwheel/winwheel.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js" integrity="sha512-GQ5/eIhs41UXpG6fGo4xQBpwSEj9RrBvMuKyE2h/2vw3a9x85T1Bt0JglOUVJJLeyIUl/S/kCdDXlE/n7zCjIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+
+<div class="row" >
+    <div class="col-md-6" >
+        <div id="w_status_box" class="wheelStatus w-100" >
+            <div id="w_status">Kliknij na koło fortuny, aby nim zakręcić.</div>
+        </div>
+        
+        <div class="wheelContainer">
+            <div class="wheelPointer"><div class="pointerElement"></div></div>
+            <div id="clickWheel" onclick="resetWheel();startSpin();">🖱️ Kliknij, aby zakręcić kołem</div>
+            <canvas id="canvas" width="450" height="430" class="the_wheel" data-responsiveMinWidth="180" data-responsiveScaleHeight="true" data-responsiveMargin="50" onclick="resetWheel();startSpin();"></canvas>
+        </div>
+    </div>
+
+    <div class="Kopiowanie">
+      <button class="copy Silver kopiowanie_losy" data-clipboard-target="#Silver">Kopiuj Srebrny</button><br>
+      <button class="copy Gold kopiowanie_losy" data-clipboard-target="#Gold">Kopiuj Złoty</button><br>
+      <button class="copy Platine kopiowanie_losy" data-clipboard-target="#Platine">Kopiuj Platynowy</button><br><br><br><br><br><br><br><br><br><br>
+  </div>
+        <div class="box w-100 ukryte">
+            <div class="p30 ukryte">
+                <label for="speed1"><b>Prędkość kręcenia kołem fortuny:</b></label>
+                <p class="text-sm text-muted ukryte">Im większa, tym szybciej powinno kręcić się koło fortuny i tym szybciej uzyskasz wynik.</p>
+                <div class="row">
+                                        <div class="col-md-7"><input type="range" class="form-range mt-3" id="speed1" min="1" max="100" value="50" oninput="prGet('speed2').value = this.value; changeSpeed();"></div>
+                    <div class="col-md-5 ukryte">
+                        <div class="input-group">
+                            <input type="number" id="speed2" aria-label="Prędkość kręcenia kołem fortuny" class="form-control" min="1" max="100" value="50" oninput="prGet('speed1').value = this.value; changeSpeed();">
+                            <span class="input-group-text">%</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div><label for="list1"><b>Nagrody</b></label></div>
+                <p class="text-sm text-muted ukryte"></p>
+                <textarea class="form-control" id="list1" spellcheck="false" oninput="changeList(1);">
+100k $
+75k $
+20 smacznych kawusi
+95k $
+70k $
+80k $
+50k $
+10 smacznych kawusi
+70k $
+30 smacznych kawusi
+90k $
+65k $
+50 smacznych kawusi
+45k $
+200k $
+70k $
+70k $
+100k $
+20 smacznych kawusi
+90k $
+</textarea>
+
+                <button class="input-group-text copy d-inline-block" data-clipboard-target="#list1">Kopiuj</button>
+                <button class="input-group-text d-inline-block ms-2" onclick="clearList()">Wyczyść</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Kopiowanie">
+    <button class="copy Silver kopiowanie_losy" data-clipboard-target="#Silver">Kopiuj Srebrny</button><br>
+    <button class="copy Gold kopiowanie_losy" data-clipboard-target="#Gold">Kopiuj Złoty</button><br>
+    <button class="copy Platine kopiowanie_losy" data-clipboard-target="#Platine">Kopiuj Platynowy</button><br>
+</div>
+<div class="reward">
+        <a class="Silver yep">
+            Srebrny Los - 250 jaboli - 20K $<br>
+        </a>
+        <a id="Silver">
+            100k $<br>
+            75k $<br>
+            20 smacznych kawusi<br>
+            95k $<br>
+            70k $<br>
+            80k $<br>
+            50k $<br>
+            10 smacznych kawusi<br>
+            70k $<br>
+            30 smacznych kawusi<br>
+            90k $<br>
+            65k $<br>
+            50 smacznych kawusi<br>
+            45k $<br>
+            200k $<br>
+            70k $<br>
+            70k $<br>
+            100k $<br>
+            20 smacznych kawusi<br>
+            90k $<br>
+            
+        </a>
+        <button class="copy" data-clipboard-target="#Silver">Kopiuj</button><br>
+        <a class="Gold yep">
+            Złoty Los - 500 jaboli - 35K $<br>
+        </a>
+        <a id="Gold">
+          150k $<br>
+          1x minus*<br>
+          100k $<br>
+          25 smacznych kawusi<br>
+          180k $<br>
+          3x minus*<br>
+          200k $<br>
+          1x plus<br>
+          100k $<br>
+          70k $<br>
+          15 smacznych kawusi<br>
+          70k $<br>
+          30 smacznych kawusi<br>
+          120k $<br>
+          65k $<br>
+          50 smacznych kawusi<br>
+          200k $<br>
+          3x plus*<br>
+          200k $<br>
+          2x plus<br>
+          300k $<br>
+          Samochód II klasy<br>
+          70k $<br>
+          70k $<br>
+          100k $<br>
+          20 smacznych kawusi<br>
+          90k $<br>
+          1x plus<br>
+          80k $<br>
+          
+        </a>
+        <button class="copy" data-clipboard-target="#Gold">Kopiuj</button><br>
+      <a class="Platine yep">
+Platynowy Los - 1000 jaboli<br>
+      </a>
+      <a id="Platine">
+        150k $<br>
++1 awans w górę<br>
+100k $<br>
+25 smacznych kawusi<br>
+180k $<br>
+2x plus<br>
+200k $<br>
+150k $<br>
+400k$<br>
+100k $<br>
+150k$<br>
+80k$<br>
+150k$<br>
+15 smacznych kawusi<br>
+70k $<br>
+30 smacznych kawusi<br>
+120k $<br>
+65k $<br>
+Awans 1 w górę<br>
+150k$<br>
+50 smacznych kawusi<br>
+200k $<br>
+-3* <br>
+300k $<br>
+100$k<br>
+Samochód II klasy<br>
+150k $<br>
+100k $<br>
+1x plus<br>
+30 smacznych kawusi<br>
+200k $<br>
+
+      </a><br>
+      <button class="copy" data-clipboard-target="#Platine">Kopiuj</button><br>
+</div>
+
+
+
+<div class="mt-2 mb-2"><!-- skalkuluj-content -->
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<div class="box w-100">
+    <div class="p30">
+        <div class="row">
+            
+            
+            <div class="input-group">
+                <input type="text" class="form-control" readonly="" id="saveShare" value="https://skalkuluj.pl/kolo-fortuny-online" onclick="this.select()">
+
+         
+    </div>
+</div>
+    
+<script>
+var audioPath = 'https://skalkuluj.pl/assets/sounds/tick.mp3';
+var audioPath2 = 'https://skalkuluj.pl/assets/sounds/win.mp3';
+var ws1 = 'Kliknij na koło fortuny, aby nim zakręcić.';
+var ws2 = 'Trwa losowanie. Poczekaj na wynik.';
+var ws3 = 'Zwycięzca:';
+var ropt = 'Usuń opcję';
+var pageUrl = 'https://skalkuluj.pl/kolo-fortuny-online';
+var clearListText = 'Czy na pewno chcesz wyczyścić listę?';
+var clearHistoryText = 'Czy na pewno chcesz wyczyścić listę?';
+</script>
+<script src="https://skalkuluj.pl/assets/js/tools/wheel-of-fortune.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js" integrity="sha512-PIisRT8mFfdxx99gMs7WAY5Gp+CtjYYxKvF93w8yWAvX548UBNADHu7Qkavgr6yRG+asocqfuk5crjNd5z9s6Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script>
+    new ClipboardJS('.copy');
+</script>
+<script>
+        tippy('.copy', {
+          trigger: 'click',
+          content: 'Skopiowano!',
+          duration: 500,
+           onShow(instance) {
+              setTimeout(() => {
+                instance.hide();
+              }, 800);
+            }
+        });
+</script>
+
+
+
+
+      <div class="col-lg-3 rightSide">
+            
+      
+        
+        
+
+              </div>
+    </div>
+  </div>
+   
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">Strona wykonana przez: Alex Blue(Pancake)</div>
+          <div class="col-lg-6">
+            <div class="float-end">
+                            
+            </div>
+        </div>
+      </div>
+    </footer>
+</center>
+
+  
+  </body>
+</html>
